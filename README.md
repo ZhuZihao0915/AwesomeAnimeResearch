@@ -9,7 +9,7 @@ Summary of published or preprint papers
 
 | Paper | Conference | Links |
 | ---- | ---- | ---- |
-| [The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives](https://arxiv.org/pdf/1611.05118.pdf) | CVPR2017 | [Github](https://github.com/miyyer/comics) |
+| [The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives](https://arxiv.org/pdf/1611.05118.pdf) | CVPR2017 | [Github](https://github.com/miyyer/comics) | 美式漫画数据集
 | [Creative Flow+ Dataset](https://openaccess.thecvf.com/content_CVPR_2019/papers/Shugrina_Creative_Flow_Dataset_CVPR_2019_paper.pdf) | CVPR2019 | [HP](https://www.cs.toronto.edu/creativeflow/) |
 | [Building a Manga Dataset ”Manga109” with Annotations for Multimedia Applications](https://arxiv.org/pdf/2005.04425.pdf) | IEEE MultiMedia,2020 | [HP](http://www.manga109.org/ja/download_s.html) |
 | [DanbooRegion: An Illustration Region Dataset](https://lllyasviel.github.io/DanbooRegion/paper/paper.pdf) | ECCV2020 | [Github](https://github.com/lllyasviel/DanbooRegion) |
