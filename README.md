@@ -66,9 +66,8 @@ Summary of published or preprint papers
 | | [Self-supervised Enhancement of Latent Discovery in GANs](https://arxiv.org/pdf/2112.08835.pdf) | AAAI2022 | | 
 | | [Unsupervised Discovery of Disentangled Interpretable Directions for Layer-Wise GAN](https://link.springer.com/chapter/10.1007/978-981-19-8331-3_2) | Big Data2022 | |
 | Montage（数据并行训练） | [MontageGAN: Generation and Assembly of Multiple Components by GANs](https://arxiv.org/pdf/2205.15577.pdf) | ICPR2022 | [Github](https://github.com/uchidalab/docker-montage-gan)| 生成多层的图像，对每一个组件有一个GAN来生成，又通过全局的GAN来控制各组件的位置，从而得到多层的图像 | 
-| | [Sprite-from-Sprite: Cartoon Animation Decomposition with Self-supervised Sprite Estimation](https://dl.acm.org/doi/pdf/10.1145/3550454.3555439) | TOG2022 | |
-| Text-to-Image | | | |
-| | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf) | | [Github](https://github.com/lllyasviel/ControlNet) |
+| | [Sprite-from-Sprite: Cartoon Animation Decomposition with Self-supervised Sprite Estimation](https://dl.acm.org/doi/pdf/10.1145/3550454.3555439) | TOG2022 | | 拆解动画中的构成，如背景，人物等 |
+| Text-to-Image  | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf) | | [Github](https://github.com/lllyasviel/ControlNet) |
 | | [DreamArtist: Towards Controllable One-Shot Text-to-Image Generation via Positive-Negative Prompt-Tuning](https://arxiv.org/pdf/2211.11337.pdf) | | [Github](https://github.com/7eu7d7/DreamArtist-stable-diffusion) |
 
 ### Image-to-image Translation
