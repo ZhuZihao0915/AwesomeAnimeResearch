@@ -37,12 +37,12 @@ Summary of published or preprint papers
 | | [Overcoming Long-term Catastrophic Forgetting through Adversarial Neural Pruning and Synaptic Consolidation](https://arxiv.org/pdf/1912.09091.pdf) | | | Overcoming catastrophic forgetting |
 | | [Autoencoding Generative Adversarial Networks](https://arxiv.org/pdf/2004.05472.pdf) | | [Github](https://github.com/ConorLazarou/AEGAN-keras) | 组合向量来生成图像 | 
 | | [Classification Representations Can be Reused for Downstream Generations](https://arxiv.org/pdf/2004.07543.pdf) | | | 利用潜空间生成图像 |
-| | [GAN Memory with No Forgetting](https://arxiv.org/pdf/2006.07543.pdf) | NeurIPS2020 | [Github](https://github.com/MiaoyunZhao/GANmemory_LifelongLearning) |
-| | [Generating Full-Body Standing Figures of Anime Characters and Its Style Transfer by GAN](https://waseda.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=58145&item_no=1&page_id=13&block_id=21) | | |
-| | [HistoGAN: Controlling Colors of GAN-Generated and Real Images via Color Histograms](https://arxiv.org/pdf/2011.11731.pdf) | CVPR2021 | [Github](https://github.com/mahmoudnafifi/HistoGAN) |
-| | [Efficient Continual Adaptation for Generative Adversarial Networks](https://arxiv.org/pdf/2103.04032.pdf) | | |
-| | [Generating "Ideal" Anime Opening Frames Using Neural Networks](https://ieeexplore.ieee.org/abstract/document/9396557) | ElConRus2021 | |
-| | [CoPE: Conditional image generation using Polynomial Expansions](https://arxiv.org/pdf/2104.05077.pdf) | | |
+| | [GAN Memory with No Forgetting](https://arxiv.org/pdf/2006.07543.pdf) | NeurIPS2020 | [Github](https://github.com/MiaoyunZhao/GANmemory_LifelongLearning) | 克服catastrophic forgetting |
+| | [Generating Full-Body Standing Figures of Anime Characters and Its Style Transfer by GAN](https://waseda.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=58145&item_no=1&page_id=13&block_id=21) | | | 生成全身图像 |
+| | [HistoGAN: Controlling Colors of GAN-Generated and Real Images via Color Histograms](https://arxiv.org/pdf/2011.11731.pdf) | CVPR2021 | [Github](https://github.com/mahmoudnafifi/HistoGAN) | 通过颜色直方图来控制生成的图像颜色 |
+| | [Efficient Continual Adaptation for Generative Adversarial Networks](https://arxiv.org/pdf/2103.04032.pdf) | | | 引入持续适应模块 (CAM) |
+| | [Generating "Ideal" Anime Opening Frames Using Neural Networks](https://ieeexplore.ieee.org/abstract/document/9396557) | ElConRus2021 | | 生成动漫的op帧 |
+| | [CoPE: Conditional image generation using Polynomial Expansions](https://arxiv.org/pdf/2104.05077.pdf) | | | 基于多项式展开的条件生成方法（不懂）|
 | | [StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators](https://arxiv.org/pdf/2108.00946.pdf) | SIGGRAPH2022 | [Github](https://github.com/rinongal/StyleGAN-nada) |
 | | [DisUnknown: Distilling Unknown Factors for Disentanglement Learning](https://arxiv.org/pdf/2109.08090.pdf) | ICCV2021 | [Github](https://github.com/stormraiser/disunknown) |
 | | [Combating Mode Collapse in GANs via Manifold Entropy Estimation](https://arxiv.org/pdf/2208.12055.pdf) | | [Github](https://arxiv.org/pdf/2208.12055.pdf) |
