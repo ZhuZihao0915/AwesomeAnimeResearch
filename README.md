@@ -29,7 +29,8 @@ Summary of published or preprint papers
 
 | Subcategory | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | ---- |
-| Generation | [Towards the Automatic Anime Characters Creation with Generative Adversarial Networks](https://arxiv.org/pdf/1708.05509.pdf) | Comiket92 | [HP](https://make.girls.moe/#/) | 动画角色面部生成（MakeGirlsMoe） |
+| Generation | | | | |
+| | [Towards the Automatic Anime Characters Creation with Generative Adversarial Networks](https://arxiv.org/pdf/1708.05509.pdf) | Comiket92 | [HP](https://make.girls.moe/#/) | 动画角色面部生成（MakeGirlsMoe） |
 | | [Full-body High-resolution Anime Generation with Progressive Structure-conditional Generative Adversarial Networks](https://arxiv.org/pdf/1809.01890v1.pdf) | ECCVW2018 | [HP](https://dena.com/intl/anime-generation/) [Video](https://www.youtube.com/watch?v=0f2UrdODkuQ&ab_channel=DeNAChannel) | 通过身体结构图生成全身的图像 |
 | | [Generate Novel Image Styles using Weighted Hybrid Generative Adversarial Nets](https://ieeexplore.ieee.org/document/8489080) | IJCNN2018 | | 风格图像转换 |
 | | [Towards Diverse Anime Face Generation: Active Label Completion and Style Feature Network](https://diglib.eg.org/bitstream/handle/10.2312/egs20191016/065-068.pdf?sequence=1&isAllowed=y) | EUROGRAPHICS2019 | | 基于风格-性别的生成 |
@@ -43,18 +44,20 @@ Summary of published or preprint papers
 | | [Efficient Continual Adaptation for Generative Adversarial Networks](https://arxiv.org/pdf/2103.04032.pdf) | | | 引入持续适应模块 (CAM) |
 | | [Generating "Ideal" Anime Opening Frames Using Neural Networks](https://ieeexplore.ieee.org/abstract/document/9396557) | ElConRus2021 | | 生成动漫的op帧 |
 | | [CoPE: Conditional image generation using Polynomial Expansions](https://arxiv.org/pdf/2104.05077.pdf) | | | 基于多项式展开的条件生成方法（不懂）|
-| | [StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators](https://arxiv.org/pdf/2108.00946.pdf) | SIGGRAPH2022 | [Github](https://github.com/rinongal/StyleGAN-nada) |
-| | [DisUnknown: Distilling Unknown Factors for Disentanglement Learning](https://arxiv.org/pdf/2109.08090.pdf) | ICCV2021 | [Github](https://github.com/stormraiser/disunknown) |
-| | [Combating Mode Collapse in GANs via Manifold Entropy Estimation](https://arxiv.org/pdf/2208.12055.pdf) | | [Github](https://arxiv.org/pdf/2208.12055.pdf) |
-| Few-shot | [Image Generation From Small Datasets via Batch Statistics Adaptation](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) | ICCV2019 | [Github](https://github.com/nogu-atsu/small-dataset-image-generation) |
-| | [FEW-SHOT ADAPTATION OF GENERATIVE ADVERSARIAL NETWORKS](https://arxiv.org/pdf/2010.11943.pdf) | | [Github](https://github.com/e-271/few-shot-gan) |
+| | [StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators](https://arxiv.org/pdf/2108.00946.pdf) | SIGGRAPH2022 | [Github](https://github.com/rinongal/StyleGAN-nada) | 通过文本转换模型生成图像的domain |
+| | [DisUnknown: Distilling Unknown Factors for Disentanglement Learning](https://arxiv.org/pdf/2109.08090.pdf) | ICCV2021 | [Github](https://github.com/stormraiser/disunknown) | 提出了一个名为 DisUnknown 的新方法，用于解决解纠缠学习中的一个关键挑战：如何分离出数据中未观察到的潜在因素 |
+| | [Combating Mode Collapse in GANs via Manifold Entropy Estimation](https://arxiv.org/pdf/2208.12055.pdf) | | [Github](https://arxiv.org/pdf/2208.12055.pdf) | 解决model collapse |
+| Few-shot（小样本学习） | | | | |
+| | [Image Generation From Small Datasets via Batch Statistics Adaptation](https://openaccess.thecvf.com/content_ICCV_2019/papers/Noguchi_Image_Generation_From_Small_Datasets_via_Batch_Statistics_Adaptation_ICCV_2019_paper.pdf) | ICCV2019 | [Github](https://github.com/nogu-atsu/small-dataset-image-generation) | 减少对数据集大小的需求 |
+| | [FEW-SHOT ADAPTATION OF GENERATIVE ADVERSARIAL NETWORKS](https://arxiv.org/pdf/2010.11943.pdf) | | [Github](https://github.com/e-271/few-shot-gan) | 类似的，提出了在小数据集上的模型 |
 | | [MineGAN: effective knowledge transfer from GANs to target domains with few images](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_MineGAN_Effective_Knowledge_Transfer_From_GANs_to_Target_Domains_With_CVPR_2020_paper.pdf) | CVPR2020 | [Github](https://github.com/yaxingwang/MineGAN) |
 | | [Freeze the Discriminator: a Simple Baseline for Fine-Tuning GANs](https://arxiv.org/pdf/2002.10964.pdf) | CVPRW2020 | [Github](https://github.com/sangwoomo/FreezeD) |
 | | [DATA INSTANCE PRIOR FOR TRANSFER LEARNING IN GANS](https://arxiv.org/pdf/2012.04256.pdf) | | |
 | | [MineGAN++: Mining Generative Models for Efficient Knowledge Transfer to Limited Data Domains](https://arxiv.org/pdf/2104.13742.pdf) | | |
 | | [Data InStance Prior (DISP) in Generative Adversarial Networks](https://openaccess.thecvf.com/content/WACV2022/papers/Mangla_Data_InStance_Prior_DISP_in_Generative_Adversarial_Networks_WACV_2022_paper.pdf) | WACV2022 | |
 | | [Controlling StyleGANs Using Rough Scribbles via One-shot Learning](http://www.cgg.cs.tsukuba.ac.jp/~endo/projects/StyleGANSparseControl/CAVW_endo22_preprint.pdf) | CAVW2022 | [HP](http://www.cgg.cs.tsukuba.ac.jp/~endo/projects/StyleGANSparseControl/) |
-| Interpretability | [RPGAN: GANs Interpretability via Random Routing](https://arxiv.org/pdf/1912.10920.pdf) | | [Github](https://github.com/anvoynov/RandomPathGAN) |
+| Interpretability（可解释性） | | | | |
+| | [RPGAN: GANs Interpretability via Random Routing](https://arxiv.org/pdf/1912.10920.pdf) | | [Github](https://github.com/anvoynov/RandomPathGAN) |
 | | [Unsupervised Discovery of Interpretable Directions in the GAN Latent Space](https://arxiv.org/pdf/2002.03754.pdf) | ICML2020 | [Github](https://github.com/anvoynov/GANLatentDiscovery) |
 | | [Closed-Form Factorization of Latent Semantics in GANs](https://arxiv.org/pdf/2007.06600.pdf) | CVPR2021 | [Github](https://github.com/genforce/sefa) |
 | | [Unsupervised Discovery of Disentangled Manifolds in GANs](https://arxiv.org/pdf/2011.11842.pdf) | | |
@@ -65,9 +68,11 @@ Summary of published or preprint papers
 | | [Discovering Density-Preserving Latent Space Walks in GANs for Semantic Image Transformations](https://dl.acm.org/doi/pdf/10.1145/3474085.3475293) | MM 2021 | | |
 | | [Self-supervised Enhancement of Latent Discovery in GANs](https://arxiv.org/pdf/2112.08835.pdf) | AAAI2022 | | 
 | | [Unsupervised Discovery of Disentangled Interpretable Directions for Layer-Wise GAN](https://link.springer.com/chapter/10.1007/978-981-19-8331-3_2) | Big Data2022 | |
-| Montage | [MontageGAN: Generation and Assembly of Multiple Components by GANs](https://arxiv.org/pdf/2205.15577.pdf) | ICPR2022 | [Github](https://github.com/uchidalab/docker-montage-gan)|
+| Montage（数据并行训练） | | | | |
+| | [MontageGAN: Generation and Assembly of Multiple Components by GANs](https://arxiv.org/pdf/2205.15577.pdf) | ICPR2022 | [Github](https://github.com/uchidalab/docker-montage-gan)| 生成多层的图像，对每一个组件有一个GAN来生成，又通过全局的GAN来控制各组件的位置，从而得到多层的图像 | 
 | | [Sprite-from-Sprite: Cartoon Animation Decomposition with Self-supervised Sprite Estimation](https://dl.acm.org/doi/pdf/10.1145/3550454.3555439) | TOG2022 | |
-| Text-to-Image | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf) | | [Github](https://github.com/lllyasviel/ControlNet) |
+| Text-to-Image | | | | |
+| | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf) | | [Github](https://github.com/lllyasviel/ControlNet) |
 | | [DreamArtist: Towards Controllable One-Shot Text-to-Image Generation via Positive-Negative Prompt-Tuning](https://arxiv.org/pdf/2211.11337.pdf) | | [Github](https://github.com/7eu7d7/DreamArtist-stable-diffusion) |
 
 ### Image-to-image Translation
