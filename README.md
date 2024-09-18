@@ -27,16 +27,16 @@ Summary of published or preprint papers
 
 ### Image Generation
 
-| Subcategory | Paper | Conference | Links |
-| ---- | ---- | ---- | ---- |
-| Generation | [Towards the Automatic Anime Characters Creation with Generative Adversarial Networks](https://arxiv.org/pdf/1708.05509.pdf) | Comiket92 | [HP](https://make.girls.moe/#/) |
-| | [Full-body High-resolution Anime Generation with Progressive Structure-conditional Generative Adversarial Networks](https://arxiv.org/pdf/1809.01890v1.pdf) | ECCVW2018 | [HP](https://dena.com/intl/anime-generation/) |
-| | [Generate Novel Image Styles using Weighted Hybrid Generative Adversarial Nets](https://ieeexplore.ieee.org/document/8489080) | IJCNN2018 | |
-| | [Towards Diverse Anime Face Generation: Active Label Completion and Style Feature Network](https://diglib.eg.org/bitstream/handle/10.2312/egs20191016/065-068.pdf?sequence=1&isAllowed=y) | EUROGRAPHICS2019 | |
-| | [An Adaptive Control Algorithm for Stable Training of Generative Adversarial Networks](https://ieeexplore.ieee.org/document/8936350) | IEEE Access2019 | |
-| | [Overcoming Long-term Catastrophic Forgetting through Adversarial Neural Pruning and Synaptic Consolidation](https://arxiv.org/pdf/1912.09091.pdf) | | |
-| | [Autoencoding Generative Adversarial Networks](https://arxiv.org/pdf/2004.05472.pdf) | | [Github](https://github.com/ConorLazarou/AEGAN-keras) |
-| | [Classification Representations Can be Reused for Downstream Generations](https://arxiv.org/pdf/2004.07543.pdf) | | |
+| Subcategory | Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- | ---- |
+| Generation | [Towards the Automatic Anime Characters Creation with Generative Adversarial Networks](https://arxiv.org/pdf/1708.05509.pdf) | Comiket92 | [HP](https://make.girls.moe/#/) | 动画角色面部生成（MakeGirlsMoe） |
+| | [Full-body High-resolution Anime Generation with Progressive Structure-conditional Generative Adversarial Networks](https://arxiv.org/pdf/1809.01890v1.pdf) | ECCVW2018 | [HP](https://dena.com/intl/anime-generation/) [Video](https://www.youtube.com/watch?v=0f2UrdODkuQ&ab_channel=DeNAChannel) | 通过身体结构图生成全身的图像 |
+| | [Generate Novel Image Styles using Weighted Hybrid Generative Adversarial Nets](https://ieeexplore.ieee.org/document/8489080) | IJCNN2018 | | 风格图像转换 |
+| | [Towards Diverse Anime Face Generation: Active Label Completion and Style Feature Network](https://diglib.eg.org/bitstream/handle/10.2312/egs20191016/065-068.pdf?sequence=1&isAllowed=y) | EUROGRAPHICS2019 | | 基于风格-性别的生成 |
+| | [An Adaptive Control Algorithm for Stable Training of Generative Adversarial Networks](https://ieeexplore.ieee.org/document/8936350) | IEEE Access2019 | | 尝试解决model collapse |
+| | [Overcoming Long-term Catastrophic Forgetting through Adversarial Neural Pruning and Synaptic Consolidation](https://arxiv.org/pdf/1912.09091.pdf) | | | Overcoming catastrophic forgetting |
+| | [Autoencoding Generative Adversarial Networks](https://arxiv.org/pdf/2004.05472.pdf) | | [Github](https://github.com/ConorLazarou/AEGAN-keras) | 组合向量来生成图像 | 
+| | [Classification Representations Can be Reused for Downstream Generations](https://arxiv.org/pdf/2004.07543.pdf) | | | 利用潜空间生成图像 |
 | | [GAN Memory with No Forgetting](https://arxiv.org/pdf/2006.07543.pdf) | NeurIPS2020 | [Github](https://github.com/MiaoyunZhao/GANmemory_LifelongLearning) |
 | | [Generating Full-Body Standing Figures of Anime Characters and Its Style Transfer by GAN](https://waseda.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=58145&item_no=1&page_id=13&block_id=21) | | |
 | | [HistoGAN: Controlling Colors of GAN-Generated and Real Images via Color Histograms](https://arxiv.org/pdf/2011.11731.pdf) | CVPR2021 | [Github](https://github.com/mahmoudnafifi/HistoGAN) |
