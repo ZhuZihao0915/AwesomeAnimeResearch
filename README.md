@@ -284,11 +284,11 @@ Summary of published or preprint papers
 | [Progressive Full Data Convolutional Neural Networks for Line Extraction from Anime-Style Illustrations](https://www.mdpi.com/2076-3417/10/1/41) | Appl. Sci. 2020 | | 使用渐进式训练策略的网络，从动漫插画中提取线画 |
 | [SketchMan: Learning to Create Professional Sketches](https://dl.acm.org/doi/abs/10.1145/3394171.3413720) | MM2020 | [Github](https://github.com/LCXCUC/SketchMan2020) | 提出了将非专业的线画转化为专业线画的任务，并做了一个数据集 |
 | [One-shot Line Extraction from Color Illustrations](https://ieeexplore.ieee.org/document/9515964) | NicoInt2021 | | 从彩色插画提取线画 |
-| [A Drawing Support System for Sketching Aging Anime Faces](https://ieeexplore.ieee.org/abstract/document/9937356) | CW2022 | |
-| [End-to-End Line Drawing Vectorization](https://ojs.aaai.org/index.php/AAAI/article/download/20379/20138) | AAAI2022 | |
-| [Reference Based Sketch Extraction via Attention Mechanism](https://dl.acm.org/doi/abs/10.1145/3550454.3555504) | ACM TG2022 | [Github](https://github.com/ref2sketch/ref2sketch) |
-| [Semi-supervised reference-based sketch extraction using a contrastive learning framework](https://drive.google.com/file/d/1FELTVl73OrQ9Q0uBXN7jLbRStSsF-NgM/view?pli=1) | ACM TG2023 | [Github](https://github.com/Chanuku/semi_ref2sketch_code) |
-| [Joint Geometric-Semantic Driven Character Line Drawing Generation](https://dl.acm.org/doi/10.1145/3591106.3592216) | ICMR2023 | |
+| [A Drawing Support System for Sketching Aging Anime Faces](https://ieeexplore.ieee.org/abstract/document/9937356) | CW2022 | | 基于各年代动画角色面部特征不同这一点，提出了一个绘画辅助系统 |
+| [End-to-End Line Drawing Vectorization](https://ojs.aaai.org/index.php/AAAI/article/download/20379/20138) | AAAI2022 | [Github](https://ttwong12.github.io/papers/linevector/linevector.html) | 将线稿向量图化 |
+| [Reference Based Sketch Extraction via Attention Mechanism](https://dl.acm.org/doi/abs/10.1145/3550454.3555504) | ACM TG2022 | [Github](https://github.com/ref2sketch/ref2sketch) | 能够基于提供的样例（reference）的风格去提取插画的线稿 |
+| [Semi-supervised reference-based sketch extraction using a contrastive learning framework](https://drive.google.com/file/d/1FELTVl73OrQ9Q0uBXN7jLbRStSsF-NgM/view?pli=1) | ACM TG2023 | [Github](https://github.com/Chanuku/semi_ref2sketch_code) | 和上一篇类似，同样是基于reference提取线画 |
+| [Joint Geometric-Semantic Driven Character Line Drawing Generation](https://dl.acm.org/doi/10.1145/3591106.3592216) | ICMR2023 | [arxiv](https://arxiv.org/abs/2206.02998) | 将几何信息和语义信息结合，生成人物线画 |
 
 ### Automatic Animation Inbetweening （中割り）
 | Paper | Conference | Links | 注释 |
