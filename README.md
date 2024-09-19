@@ -290,7 +290,7 @@ Summary of published or preprint papers
 | [Semi-supervised reference-based sketch extraction using a contrastive learning framework](https://drive.google.com/file/d/1FELTVl73OrQ9Q0uBXN7jLbRStSsF-NgM/view?pli=1) | ACM TG2023 | [Github](https://github.com/Chanuku/semi_ref2sketch_code) |
 | [Joint Geometric-Semantic Driven Character Line Drawing Generation](https://dl.acm.org/doi/10.1145/3591106.3592216) | ICMR2023 | |
 
-### Automatic Animation Inbetweening
+### Automatic Animation Inbetweening （中割り）
 | Paper | Conference | Links |
 | ---- | ---- | ---- |
 | [A filter based approach for inbetweening (Japanese)](https://arxiv.org/pdf/1706.03497.pdf) | | [Movie](https://www.youtube.com/watch?v=_RM1zUrY1AQ) |
