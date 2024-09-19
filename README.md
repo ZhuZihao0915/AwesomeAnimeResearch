@@ -25,7 +25,7 @@ Summary of published or preprint papers
 | [Manga109Dialog: A Large-scale Dialogue Dataset for Comics Speaker Detection](https://arxiv.org/pdf/2306.17469.pdf) |  | [Github](https://github.com/manga109/public-annotations) |
 | [Human-Art: A Versatile Human-Centric Dataset Bridging Natural and Artificial Scenes](https://openaccess.thecvf.com/content/CVPR2023/papers/Ju_Human-Art_A_Versatile_Human-Centric_Dataset_Bridging_Natural_and_Artificial_Scenes_CVPR_2023_paper.pdf) | CVPR2023 | [Github](https://github.com/IDEA-Research/HumanArt) | 
 
-### Image Generation
+### Image Generation （生成动漫图像，基本都是GAN黑盒，没有太大的帮助）
 
 | Subcategory| Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | ---- |
@@ -70,7 +70,7 @@ Summary of published or preprint papers
 | Text-to-Image  | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf) | | [Github](https://github.com/lllyasviel/ControlNet) |
 | | [DreamArtist: Towards Controllable One-Shot Text-to-Image Generation via Positive-Negative Prompt-Tuning](https://arxiv.org/pdf/2211.11337.pdf) | | [Github](https://github.com/7eu7d7/DreamArtist-stable-diffusion) |
 
-### Image-to-image Translation
+### Image-to-image Translation （风格转为动漫，更没有啥帮助）
 
 | Subcategory | Paper | Conference | Link | 注释 |
 | ---- | ---- | ---- | ---- | ---- |
@@ -126,16 +126,16 @@ Summary of published or preprint papers
 | | [Interactive Cartoonization with Controllable Perceptual Factors](https://openaccess.thecvf.com/content/CVPR2023/papers/Ahn_Interactive_Cartoonization_With_Controllable_Perceptual_Factors_CVPR_2023_paper.pdf) | CVPR2023 | |
 | | [Scenimefy: Learning to Craft Anime Scene via Semi-Supervised Image-to-Image Translation](https://arxiv.org/abs/2308.12968) | ICCV2023 | [Github](https://github.com/Yuxinn-J/Scenimefy) |
 | | [A Novel Double-Tail Generative Adversarial Network for Fast Photo Animation](https://www.jstage.jst.go.jp/article/transinf/E107.D/1/E107.D_2023EDP7061/_pdf) | IEICE TIS2024 |[HP](https://tachibanayoshino.github.io/AnimeGANv3/) |
-| Sketch2anime | [SmartPaint: a co-creative drawing system based on generative adversarial networks](https://link.springer.com/content/pdf/10.1631/FITEE.1900386.pdf) | FITEE2019 | |
-| | [PI-REC: Progressive Image Reconstruction Network With Edge and Color Domain](https://arxiv.org/pdf/1903.10146.pdf) | | [Github](https://github.com/youyuge34/PI-REC) |
-| | [Modeling Artistic Workflows for Image Generation and Editing](https://arxiv.org/pdf/2007.07238.pdf) | ECCV2020 | [Github](https://github.com/hytseng0509/ArtEditing) |
+| Sketch2anime | [SmartPaint: a co-creative drawing system based on generative adversarial networks](https://link.springer.com/content/pdf/10.1631/FITEE.1900386.pdf) | FITEE2019 | | 基于简易的绘图生成背景画作 |
+| | [PI-REC: Progressive Image Reconstruction Network With Edge and Color Domain](https://arxiv.org/pdf/1903.10146.pdf) | | [Github](https://github.com/youyuge34/PI-REC) | 基于边缘和颜色的绘制，包括人脸 |
+| | [Modeling Artistic Workflows for Image Generation and Editing](https://arxiv.org/pdf/2007.07238.pdf) | ECCV2020 | [Github](https://github.com/hytseng0509/ArtEditing) | 模仿画师的工作流来生成画作 |
 | | [Deep Sketch-guided Cartoon Video Inbetweening](https://arxiv.org/pdf/2008.04149.pdf) | IEEE2021 | |
 | | [SketchBetween: Video-to-Video Synthesis for Sprite Animation via Sketches](https://arxiv.org/pdf/2209.00185.pdf) | FDG2022 | |
 | | [How to train your conditional GAN: An approach using geometrically structured latent manifolds](https://arxiv.org/pdf/2011.13055.pdf) | | |
 | | [PMSGAN: Parallel Multistage GANs for Face Image Translation](https://ieeexplore.ieee.org/document/10014017) | TNNLS2022 | |
 | | [AniFaceDrawing: Anime Portrait Exploration during Your Sketching](https://arxiv.org/abs/2306.07476) | ACM TG2023 | [HP](http://www.jaist.ac.jp/~xie/AniFaceDrawing.html) |
 | Photo2manga | [MangaGAN: Unpaired Photo-to-Manga Translation Based on The Methodology of Manga Drawing](https://arxiv.org/pdf/2004.10634.pdf) | AAAI2021 | |
-| Anime2costume | [Anime-to-Real Clothing: Cosplay Costume Generation via Image-to-Image Translation](https://arxiv.org/pdf/2008.11479.pdf) | | |
+| Anime2costume | [Anime-to-Real Clothing: Cosplay Costume Generation via Image-to-Image Translation](https://arxiv.org/pdf/2008.11479.pdf) | | | 基于动漫角色的全身图，生成其服装的真实图像 |
 | Style transfer | [Anime Style Space Exploration Using Metric Learning and Generative Adversarial Networks](https://arxiv.org/pdf/1805.07997v1.pdf) | | |
 | | [Disentangling Style and Content in Anime Illustrations](https://arxiv.org/pdf/1905.10742v2.pdf) | | [Github](https://github.com/stormraiser/adversarial-disentangle) |
 | | [RAG: Facial Attribute Editing by Learning Residual Attributes](https://www.researchgate.net/publication/334058885_RAG_Facial_Attribute_Editing_by_Learning_Residual_Attributes) | IEEE Access2019 | |
@@ -151,11 +151,11 @@ Summary of published or preprint papers
 | | [Towards Diverse and Faithful One-shot Adaption of Generative Adversarial Networks](https://arxiv.org/pdf/2207.08736.pdf) | | [Github](https://github.com/1170300521/DiFa) |
 | | [LANIT: Language-Driven Image-to-Image Translation for Unlabeled Data](https://arxiv.org/pdf/2208.14889.pdf) | | [Github](https://github.com/KU-CVLAB/LANIT) |
 | | [HRInversion: High-Resolution GAN Inversion for Cross-Domain Image Synthesis](https://ieeexplore.ieee.org/document/9953153) | TCSVT2022 | |
-| | [Diffutoon: High-Resolution Editable Toon Shading via Diffusion Models](https://arxiv.org/pdf/2401.16224) | | [HP](https://ecnu-cilab.github.io/DiffutoonProjectPage/) |
+| | [Diffutoon: High-Resolution Editable Toon Shading via Diffusion Models](https://arxiv.org/pdf/2401.16224) | | [HP](https://ecnu-cilab.github.io/DiffutoonProjectPage/) | 模仿了Toon Shading，将现实视频转为卡通着色效果的视频 |
 | Author style transfer | [Translation of Illustration Artist Style Using Sailormoonredraw Data](https://ieeexplore.ieee.org/document/9897787) | ICIP2022 |  |
 
 
-### Automatic Line Art Colorization
+### Automatic Line Art Colorization （线画上色，有意思但不是优先事项）
 
 | Subcategory | Paper | Conference | Links |
 | ---- | ---- | ---- | ---- |
@@ -235,7 +235,7 @@ Summary of published or preprint papers
 | | [Coloring anime line art videos with transformation region enhancement network](https://www.sciencedirect.com/science/article/pii/S0031320323002625?casa_token=evjknkPkujoAAAAA:a0kjRw6hy3aaO9UAkINCtXYlELCDMDQu5RykR6k7qNeRPaYsaBfR8_PNSg0R-MsIs3vOCePOTfYh) | PR2023 |  |
 
 
-### Automatic Character Lighting
+### Automatic Character Lighting （角色打光，不感兴趣）
 
 | Paper | Conference | Links |
 | ---- | ---- | ---- |
@@ -249,7 +249,7 @@ Summary of published or preprint papers
 | [SmartShadow: Artistic Shadow Drawing Tool for Line Drawings](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_SmartShadow_Artistic_Shadow_Drawing_Tool_for_Line_Drawings_ICCV_2021_paper.pdf) | ICCV2021 | |
 | [Automatic Illumination of Flat-Colored Drawings by 3D Augmentation of 2D Silhouettes](https://ieeexplore.ieee.org/document/9897386) | ICIP2022 | |
 
-### Automatic Illustration Editing
+### Automatic Illustration Editing （插画编辑，不感兴趣）
 
 | Paper | Conference | Links |
 | ---- | ---- | ---- |
@@ -270,12 +270,12 @@ Summary of published or preprint papers
 | [DreamTuner: Single Image is Enough for Subject-Driven Generation](https://arxiv.org/pdf/2312.13691) | | |
 
 
-### Automatic Sketch Editing
+### Automatic Sketch Editing （sketch编辑，有意思）
 
-| Paper | Conference | Links |
-| ---- | ---- | ---- |
-| [Temporal Noise Control for Sketchy Animation](https://dl.acm.org/doi/10.1145/2024676.2024691) | NPAR2011 |
-| [Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup](https://esslab.jp/~ess/publications/SimoSerraSIGGRAPH2016.pdf) | ACM Trans. Graph. 2016 | [Github](https://github.com/bobbens/sketch_simplification) |
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- |
+| [Temporal Noise Control for Sketchy Animation](https://dl.acm.org/doi/10.1145/2024676.2024691) | NPAR2011 | 去除sketch动画的噪音 |
+| [Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup](https://esslab.jp/~ess/publications/SimoSerraSIGGRAPH2016.pdf) | ACM Trans. Graph. 2016 | [Github](https://github.com/bobbens/sketch_simplification) | 早稻田simo研，简化sketch的线条 |
 | [Deep Extraction of Manga Structural Lines](https://dl.acm.org/doi/10.1145/3072959.3073675) | ACM Trans. Graph. 2017 | [Github](https://github.com/ljsabc/MangaLineExtraction) |
 | [Mastering Sketching: Adversarial Augmentation for Structured Prediction](https://arxiv.org/pdf/1703.08966.pdf) | ACM Trans. Graph. 2018 | [Github](https://github.com/bobbens/sketch_simplification) |
 | [Real-Time Data-Driven Interactive Rough Sketch Inking](https://dl.acm.org/doi/pdf/10.1145/3197517.3201370) | ACM Trans. Graph. 2018 | [Github](https://github.com/bobbens/line_thinning) |
