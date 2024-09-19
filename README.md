@@ -294,10 +294,10 @@ Summary of published or preprint papers
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- |
 | [A filter based approach for inbetweening (Japanese)](https://arxiv.org/pdf/1706.03497.pdf) | | [Movie](https://www.youtube.com/watch?v=_RM1zUrY1AQ) | 使用CNN生成中割 |
-| [DiLight: Digital light table – Inbetweening for 2D animations using guidelines](http://graphics.tudelft.nl/Publications-new/2017/CMV17/pdf.pdf) | CMV2017 | |
-| [Optical Flow Based Line Drawing Frame Interpolation Using Distance Transform to Support Inbetweenings](https://ieeexplore.ieee.org/document/8803506) | ICIP2019 | |
-| [Deep Animation Video Interpolation in the Wild](https://arxiv.org/pdf/2104.02495.pdf) | CVPR2021 | [Github](https://github.com/lisiyao21/AnimeInterp/) |
-| [Improving the Perceptual Quality of 2D Animation Interpolation](https://arxiv.org/pdf/2111.12792.pdf) | ECCV2022 | [Github](https://github.com/ShuhongChen/eisai-anime-interpolator/) |
+| [DiLight: Digital light table – Inbetweening for 2D animations using guidelines](http://graphics.tudelft.nl/Publications-new/2017/CMV17/pdf.pdf) | CMV2017 | | 用引导线帮助生成中割 |
+| [Optical Flow Based Line Drawing Frame Interpolation Using Distance Transform to Support Inbetweenings](https://ieeexplore.ieee.org/document/8803506) | ICIP2019 | | 提出了一个基于光流的线条画帧插值方法，利用距离变换来支持中间帧的生成 |
+| [Deep Animation Video Interpolation in the Wild](https://arxiv.org/pdf/2104.02495.pdf) | CVPR2021 | [Github](https://github.com/lisiyao21/AnimeInterp/) | 用深度学习的方法生成中间帧，并构建了一个大量的数据集 |
+| [Improving the Perceptual Quality of 2D Animation Interpolation](https://arxiv.org/pdf/2111.12792.pdf) | ECCV2022 | [Github](https://github.com/ShuhongChen/eisai-anime-interpolator/) | 
 | [Enhanced Deep Animation Video Interpolation](https://arxiv.org/pdf/2206.12657.pdf) | ICIP2022 | [Github](https://github.com/laomao0/AutoSktFI) |
 | [Deep Geometrized Cartoon Line Inbetweening](https://openaccess.thecvf.com/content/ICCV2023/papers/Siyao_Deep_Geometrized_Cartoon_Line_Inbetweening_ICCV_2023_paper.pdf) | ICCV2023 | [Github](https://github.com/lisiyao21/animeinbet) |
 | [Automatic Animation Inbetweening](https://link.springer.com/article/10.1007/s11042-023-17354-x) | MTA2023 | |
@@ -312,18 +312,18 @@ Summary of published or preprint papers
 | [APISR: Anime Production Inspired Real-World Anime Super-Resolution](https://arxiv.org/pdf/2403.01598.pdf) | CVPR2024 | [Github](https://github.com/Kiteretsu77/APISR) |
 
 ### Character Animating
-| Paper | Conference | Links |
-| ---- | ---- | ---- |
-| [MakeItTalk: Speaker-Aware Talking-Head Animation](https://arxiv.org/pdf/2004.12992.pdf) | SIGGRAPH Asia2020 | |
-| [CPTNet: Cascade Pose Transform Network for Single Image Talking Head Animation](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhang_CPTNet_Cascade_Pose_Transform_Network_for_Single_Image_Talking_Head_ACCV_2020_paper.pdf) | ACCV2020 | |
-| [Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/pdf/2207.05378.pdf) | | [Github](https://github.com/megvii-research/CONR) |
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- |
+| [MakeItTalk: Speaker-Aware Talking-Head Animation](https://arxiv.org/pdf/2004.12992.pdf) | SIGGRAPH Asia2020 | | 基于面部图像和语言，生成讲话视频 | 
+| [CPTNet: Cascade Pose Transform Network for Single Image Talking Head Animation](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhang_CPTNet_Cascade_Pose_Transform_Network_for_Single_Image_Talking_Head_ACCV_2020_paper.pdf) | ACCV2020 | | 生成动漫角色讲话的动画 |
+| [Collaborative Neural Rendering using Anime Character Sheets](https://arxiv.org/pdf/2207.05378.pdf) | | [Github](https://github.com/megvii-research/CONR) | 使用协作神经渲染，基于Pose和Anime-sheet渲染出图像 |
 | [Language-Guided Face Animation by Recurrent StyleGAN-based Generator](https://arxiv.org/pdf/2208.05617.pdf) | | [Github](https://github.com/TiankaiHang/language-guided-animation) |
 | [Hierarchical Feature Warping and Blending for Talking Head Animation](https://gwern.net/doc/ai/anime/2024-zhang.pdf) | IEEE TCSVT2024 | |
 | [AnimateDiff-Lightning: Cross-Model Diffusion Distillation](https://arxiv.org/pdf/2403.12706) | | [HF](https://huggingface.co/ByteDance/AnimateDiff-Lightning) |
 
 ### Manga Application
-| Subcategory | Paper | Conference | Links |
-| ---- | ---- | ---- | ---- |
+| Subcategory | Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- | ---- |
 | Classification | [Panel-Page-Aware Comic Genre Understanding](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10112648) | IEEE Transactions on Image Processing, 2023 | |
 | Generation | [Synthesis of Screentone Patterns of Manga Characters](https://ieeexplore.ieee.org/document/8959008) | ISM2019 | |
 | | [Manga Filling Style Conversion with Screentone Variational Autoencoder](http://www.cse.cuhk.edu.hk/~ttwong/papers/screenstyle/screenstyle.pdf) | SIGGRAPH2020 | |
@@ -338,7 +338,7 @@ Summary of published or preprint papers
 | | [CNN based Extraction of Panels/Characters from Bengali Comic Book Page Images](https://ieeexplore.ieee.org/document/8893046) | ICDARW2019 |
 | | [Deep Learning-Based Classification of the Polar Emotions of “Moe”-Style Cartoon Pictures](https://ieeexplore.ieee.org/document/9220754) | TST2020 |
 | | [Learning from the Past: Meta-Continual Learning withKnowledge Embedding for Jointly Sketch, Cartoon, andCaricature Face Recognition](https://dl.acm.org/doi/epdf/10.1145/3394171.3413892) | MM2020 |
-| Landmark Detection | [Facial Landmark Detection for Manga Images](https://arxiv.org/pdf/1811.03214.pdf) | | |
+| Landmark Detection | [Facial Landmark Detection for Manga Images](https://arxiv.org/pdf/1811.03214.pdf) | | | 漫画角色面部的关键点检测 |
 | Segmentation | [Extraction of Frame Sequences in the Manga Context](https://ieeexplore.ieee.org/document/9327968) | 2020 IEEE International Symposium on Multimedia (ISM) | |
 | | [Towards Content-Aware Pixel-Wise Comic Panel Segmentation](https://link.springer.com/chapter/10.1007/978-3-031-37742-6_1) | ICPR2022 | |
 | Translation | [Towards Fully Automated Manga Translation](https://arxiv.org/pdf/2012.14271.pdf) | AAAI2021 | |
@@ -348,9 +348,9 @@ Summary of published or preprint papers
 | | [Zero-Shot Character Identification and Speaker Prediction in Comics via Iterative Multimodal Fusion](https://arxiv.org/pdf/2404.13993) | | |
 
 ### Representation Learning
-| Paper | Conference | Links |
-| ---- | ---- | ---- |
-| [Illustration2Vec: A Semantic Vector Representation of Illustrations](https://www.gwern.net/docs/anime/2015-saito.pdf) | SIGGRAPH2015 | [Github](https://github.com/rezoo/illustration2vec) |
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- |
+| [Illustration2Vec: A Semantic Vector Representation of Illustrations](https://www.gwern.net/docs/anime/2015-saito.pdf) | SIGGRAPH2015 | [Github](https://github.com/rezoo/illustration2vec) | 东大Aizawa研，建立了语义向量表示，帮助迅速检索某一属性的画作 |
 
 ### Pose Estimation
 | Paper | Conference | Links |
@@ -362,7 +362,7 @@ Summary of published or preprint papers
 ### Image Retrieval
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- |
-| [Sketch-based Manga Retrieval using Manga109 Dataset](https://arxiv.org/pdf/1510.04389.pdf) | MTA2017 | | 基于内容的漫画搜素引擎 |
+| [Sketch-based Manga Retrieval using Manga109 Dataset](https://arxiv.org/pdf/1510.04389.pdf) | MTA2017 | | 基于内容（图像）的漫画搜素引擎 |
 | [AugNet: End-to-End Unsupervised Visual Representation Learning with Image Augmentation](https://arxiv.org/pdf/2106.06250.pdf) | | [Github](https://github.com/chenmingxiang110/AugNet) |
 
 ### Visual Correspondence
