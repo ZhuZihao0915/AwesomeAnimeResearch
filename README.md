@@ -72,13 +72,13 @@ Summary of published or preprint papers
 
 ### Image-to-image Translation
 
-| Subcategory | Paper | Conference | Link |
-| ---- | ---- | ---- | ---- |
-| Face2anime| [Improving Shape Deformation in Unsupervised Image-to-Image Translation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Aaron_Gokaslan_Improving_Shape_Deformation_ECCV_2018_paper.pdf) | ECCV2018 | [Github](https://github.com/brownvc/ganimorph) |
-| | [Twin-GAN – Unpaired Cross-Domain Image Translation with Weight-Sharing GANs](https://arxiv.org/pdf/1809.00946.pdf) | | [Github](https://github.com/jerryli27/TwinGAN) |
-| | [DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ma_DA-GAN_Instance-Level_Image_CVPR_2018_paper.pdf) | CVPR2018 | [Github](https://github.com/Rongpeng-Lin/A-DA-GAN-architecture) |
-| | [Landmark Assisted CycleGAN for Cartoon Face Generation](https://arxiv.org/pdf/1907.01424v1.pdf) | | |
-| | [Generating Anime from Real Human Image with Adversarial Training](https://ieeexplore.ieee.org/document/8934465) | ICASERT2019 | |
+| Subcategory | Paper | Conference | Link | 注释 |
+| ---- | ---- | ---- | ---- | ---- |
+| Face2anime| [Improving Shape Deformation in Unsupervised Image-to-Image Translation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Aaron_Gokaslan_Improving_Shape_Deformation_ECCV_2018_paper.pdf) | ECCV2018 | [Github](https://github.com/brownvc/ganimorph) | 解决一些Image2Image的GAN难以改变形状的问题，如CycleGAN |
+| | [Twin-GAN – Unpaired Cross-Domain Image Translation with Weight-Sharing GANs](https://arxiv.org/pdf/1809.00946.pdf) | | [Github](https://github.com/jerryli27/TwinGAN) | 权重共享的GAN |
+| | [DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ma_DA-GAN_Instance-Level_Image_CVPR_2018_paper.pdf) | CVPR2018 | [Github](https://github.com/Rongpeng-Lin/A-DA-GAN-architecture) | 通常的GAN是全局，这篇提出了实例级的图像转换 |
+| | [Landmark Assisted CycleGAN for Cartoon Face Generation](https://arxiv.org/pdf/1907.01424v1.pdf) | | | 用landmark辅助CycleGAN生成卡通脸 |
+| | [Generating Anime from Real Human Image with Adversarial Training](https://ieeexplore.ieee.org/document/8934465) | ICASERT2019 | | 人脸到动漫脸 |
 | | [Auto-Encoding for Shared Cross Domain Feature Representation and Image-to-Image Translation](https://arxiv.org/pdf/2006.11404.pdf) | | |
 | | [Few-shot Knowledge Transfer for Fine-grained Cartoon Face Generation](https://arxiv.org/pdf/2007.13332.pdf) | | |
 | | [Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network](https://arxiv.org/pdf/2010.05713.pdf) | | [Github](https://github.com/HideUnderBush/UI2I_via_StyleGAN2) |
@@ -94,7 +94,7 @@ Summary of published or preprint papers
 | | [Neural Optimal Transport](https://arxiv.org/pdf/2201.12220.pdf) | | |
 | | [Appearance-preserved Portrait-to-anime Translation via Proxy-guided Domain Adaptation](https://ieeexplore.ieee.org/document/9982378) | TVCG2022 | |
 | | [StyO: Stylize Your Face in Only One-Shot](https://arxiv.org/pdf/2303.03231.pdf) | | |
-| Selfie2anime | [U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/pdf/1907.10830.pdf) | ICLR2020 | [Github](https://github.com/taki0112/UGATIT) |
+| Selfie2anime | [U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/pdf/1907.10830.pdf) | ICLR2020 | [Github](https://github.com/taki0112/UGATIT) | ADAPTIVE LAYERINSTANCE NORMALIZATION |
 | | [Breaking the cycle—Colleagues are all you need](https://arxiv.org/pdf/1911.10538.pdf) | CVPR2020 | [Github](https://github.com/Onr/Council-GAN) |
 | | [AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks](https://arxiv.org/pdf/1911.11897.pdf) | IJCNN2019 | [Github](https://github.com/Ha0Tang/AttentionGAN) |
 | | [Unpaired Image-to-Image Translation using Adversarial Consistency Loss](https://arxiv.org/pdf/2003.04858.pdf) | ECCV2020 | [Github](https://github.com/hyperplane-lab/ACL-GAN) |
@@ -108,7 +108,7 @@ Summary of published or preprint papers
 | | [Unpaired Image-to-Image Translation using Negative Learning for Noisy Patches](https://ieeexplore.ieee.org/document/9780547) | IEEE MM2022| |
 | | [Hyprogan: Breaking the Dimensional wall From Human to Anime](https://ieeexplore.ieee.org/document/9897973) | ICIP2022 | |
 | | [Alleviating Semantics Distortion in Unsupervised Low-Level Image-to-Image Translation via Structure Consistency Constraint](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Alleviating_Semantics_Distortion_in_Unsupervised_Low-Level_Image-to-Image_Translation_via_Structure_CVPR_2022_paper.pdf) | CVPR2022 | |
-| Photo2anime | [CartoonGAN: Generative Adversarial Networks for Photo Cartoonization](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf) | CVPR2018 | [Github](https://github.com/znxlwm/pytorch-CartoonGAN) |
+| Photo2anime | [CartoonGAN: Generative Adversarial Networks for Photo Cartoonization](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf) | CVPR2018 | [Github](https://github.com/znxlwm/pytorch-CartoonGAN) | 将照片卡通化 |
 | | [Comixify: Transform video into a comics](https://arxiv.org/pdf/1812.03473.pdf) | | [Github](https://github.com/maciej3031/comixify) |
 | | [GANILLA: Generative adversarial networks for image to illustration translation](https://arxiv.org/pdf/2002.05638.pdf) | | [Github](https://github.com/giddyyupp/ganilla) |
 | | [CartoonRenderer: An Instance-based Multi-Style Cartoon Image Translator](https://arxiv.org/pdf/1911.06102.pdf) | MMM2020 | |
