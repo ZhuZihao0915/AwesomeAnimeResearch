@@ -249,7 +249,7 @@ Summary of published or preprint papers
 | [SmartShadow: Artistic Shadow Drawing Tool for Line Drawings](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_SmartShadow_Artistic_Shadow_Drawing_Tool_for_Line_Drawings_ICCV_2021_paper.pdf) | ICCV2021 | |
 | [Automatic Illumination of Flat-Colored Drawings by 3D Augmentation of 2D Silhouettes](https://ieeexplore.ieee.org/document/9897386) | ICIP2022 | |
 
-### Automatic Illustration Editing （插画编辑，不感兴趣）
+### Automatic Illustration Editing （插画编辑）
 
 | Paper | Conference | Links |
 | ---- | ---- | ---- |
@@ -274,16 +274,16 @@ Summary of published or preprint papers
 
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- |
-| [Temporal Noise Control for Sketchy Animation](https://dl.acm.org/doi/10.1145/2024676.2024691) | NPAR2011 | 去除sketch动画的噪音 |
+| [Temporal Noise Control for Sketchy Animation](https://dl.acm.org/doi/10.1145/2024676.2024691) | NPAR2011 | | 去除sketch动画的噪音 |
 | [Learning to Simplify: Fully Convolutional Networks for Rough Sketch Cleanup](https://esslab.jp/~ess/publications/SimoSerraSIGGRAPH2016.pdf) | ACM Trans. Graph. 2016 | [Github](https://github.com/bobbens/sketch_simplification) | 早稻田simo研，简化sketch的线条 |
-| [Deep Extraction of Manga Structural Lines](https://dl.acm.org/doi/10.1145/3072959.3073675) | ACM Trans. Graph. 2017 | [Github](https://github.com/ljsabc/MangaLineExtraction) |
-| [Mastering Sketching: Adversarial Augmentation for Structured Prediction](https://arxiv.org/pdf/1703.08966.pdf) | ACM Trans. Graph. 2018 | [Github](https://github.com/bobbens/sketch_simplification) |
-| [Real-Time Data-Driven Interactive Rough Sketch Inking](https://dl.acm.org/doi/pdf/10.1145/3197517.3201370) | ACM Trans. Graph. 2018 | [Github](https://github.com/bobbens/line_thinning) |
-| [Unpaired Sketch-to-Line Translation via Synthesis of Sketches](https://dl.acm.org/doi/pdf/10.1145/3355088.3365163) | SIGGRAPH2019 | |
-| [Perceptual-aware Sketch Simplification Based on Integrated VGG Layers](https://ieeexplore.ieee.org/abstract/document/8771128) | TVCG2019 | |
-| [Progressive Full Data Convolutional Neural Networks for Line Extraction from Anime-Style Illustrations](https://www.mdpi.com/2076-3417/10/1/41) | Appl. Sci. 2020 | |
-| [SketchMan: Learning to Create Professional Sketches](https://dl.acm.org/doi/abs/10.1145/3394171.3413720) | MM2020 | [Github](https://github.com/LCXCUC/SketchMan2020) |
-| [One-shot Line Extraction from Color Illustrations](https://ieeexplore.ieee.org/document/9515964) | NicoInt2021 | |
+| [Deep Extraction of Manga Structural Lines](https://dl.acm.org/doi/10.1145/3072959.3073675) | ACM Trans. Graph. 2017 | [Github](https://github.com/ljsabc/MangaLineExtraction) | 提取漫画中关键的结构线，去除多余成分 |
+| [Mastering Sketching: Adversarial Augmentation for Structured Prediction](https://arxiv.org/pdf/1703.08966.pdf) | ACM Trans. Graph. 2018 | [Github](https://github.com/bobbens/sketch_simplification) | 又是早稻田simo研，将粗糙的线画清理为干净简洁的线画 |
+| [Real-Time Data-Driven Interactive Rough Sketch Inking](https://dl.acm.org/doi/pdf/10.1145/3197517.3201370) | ACM Trans. Graph. 2018 | [Github](https://github.com/bobbens/line_thinning) | 还是早稻田simo研，同样是生成简洁的线画，但这篇提出了可交互的工具 |
+| [Unpaired Sketch-to-Line Translation via Synthesis of Sketches](https://dl.acm.org/doi/pdf/10.1145/3355088.3365163) | SIGGRAPH2019 | | 解决素描到线画转换中的无配队数据集问题：用生成器基于真实线画生成素描数据 |
+| [Perceptual-aware Sketch Simplification Based on Integrated VGG Layers](https://ieeexplore.ieee.org/abstract/document/8771128) | TVCG2019 | | 针对素描转为线画问题，提出了一个更复杂有效的loss，能够处理复杂的素描 |
+| [Progressive Full Data Convolutional Neural Networks for Line Extraction from Anime-Style Illustrations](https://www.mdpi.com/2076-3417/10/1/41) | Appl. Sci. 2020 | | 使用渐进式训练策略的网络，从动漫插画中提取线画 |
+| [SketchMan: Learning to Create Professional Sketches](https://dl.acm.org/doi/abs/10.1145/3394171.3413720) | MM2020 | [Github](https://github.com/LCXCUC/SketchMan2020) | 提出了将非专业的线画转化为专业线画的任务，并做了一个数据集 |
+| [One-shot Line Extraction from Color Illustrations](https://ieeexplore.ieee.org/document/9515964) | NicoInt2021 | | 从彩色插画提取线画 |
 | [A Drawing Support System for Sketching Aging Anime Faces](https://ieeexplore.ieee.org/abstract/document/9937356) | CW2022 | |
 | [End-to-End Line Drawing Vectorization](https://ojs.aaai.org/index.php/AAAI/article/download/20379/20138) | AAAI2022 | |
 | [Reference Based Sketch Extraction via Attention Mechanism](https://dl.acm.org/doi/abs/10.1145/3550454.3555504) | ACM TG2022 | [Github](https://github.com/ref2sketch/ref2sketch) |
@@ -291,9 +291,9 @@ Summary of published or preprint papers
 | [Joint Geometric-Semantic Driven Character Line Drawing Generation](https://dl.acm.org/doi/10.1145/3591106.3592216) | ICMR2023 | |
 
 ### Automatic Animation Inbetweening （中割り）
-| Paper | Conference | Links |
-| ---- | ---- | ---- |
-| [A filter based approach for inbetweening (Japanese)](https://arxiv.org/pdf/1706.03497.pdf) | | [Movie](https://www.youtube.com/watch?v=_RM1zUrY1AQ) |
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- |
+| [A filter based approach for inbetweening (Japanese)](https://arxiv.org/pdf/1706.03497.pdf) | | [Movie](https://www.youtube.com/watch?v=_RM1zUrY1AQ) | 使用CNN生成中割 |
 | [DiLight: Digital light table – Inbetweening for 2D animations using guidelines](http://graphics.tudelft.nl/Publications-new/2017/CMV17/pdf.pdf) | CMV2017 | |
 | [Optical Flow Based Line Drawing Frame Interpolation Using Distance Transform to Support Inbetweenings](https://ieeexplore.ieee.org/document/8803506) | ICIP2019 | |
 | [Deep Animation Video Interpolation in the Wild](https://arxiv.org/pdf/2104.02495.pdf) | CVPR2021 | [Github](https://github.com/lisiyao21/AnimeInterp/) |
@@ -360,9 +360,9 @@ Summary of published or preprint papers
 | [VLPose: Bridging the Domain Gap in Pose Estimation with Language-Vision Tuning](https://arxiv.org/pdf/2402.14456) | | |
 
 ### Image Retrieval
-| Paper | Conference | Links |
-| ---- | ---- | ---- |
-| [Sketch-based Manga Retrieval using Manga109 Dataset](https://arxiv.org/pdf/1510.04389.pdf) | MTA2017 | |
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- |
+| [Sketch-based Manga Retrieval using Manga109 Dataset](https://arxiv.org/pdf/1510.04389.pdf) | MTA2017 | | 基于内容的漫画搜素引擎 |
 | [AugNet: End-to-End Unsupervised Visual Representation Learning with Image Augmentation](https://arxiv.org/pdf/2106.06250.pdf) | | [Github](https://github.com/chenmingxiang110/AugNet) |
 
 ### Visual Correspondence
