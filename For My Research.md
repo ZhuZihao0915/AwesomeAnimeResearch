@@ -1,13 +1,33 @@
 # Deforming 3D Anime Face Models by 2D Anime Face Landmarks for Anime-Like Representation
 
 
-## Anime
+## 2D （CV, Anime...）
+
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- | 
 
 
+## 3D （Deformation, Reconstruction, Differentiable Rendering...）
+
+### Deformation
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- | 
+| [3DN: 3D Deformation Network](https://arxiv.org/abs/1903.03322) | CVPR | | |
+| [Neural Cages for Detail-Preserving 3D Deformations](https://arxiv.org/abs/1912.06395) | CVPR | | 基于Cage的形变方法，能够让源模型形变为类似目标模型结构的同时，保持原有的细节。输入源模型和目标模型，使用神经网络得到两个模型的Cage，让源模型的Cage接近目标模型的Cage从而达到形变。（基于3D模型进行形变，因此对本研究帮助不大） |
+
+### Reconstruction
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- | 
+| [Doodle Your 3D: From Abstract Freehand Sketches to Precise 3D Shapes](https://arxiv.org/abs/2312.04043) | CVPR | | 使用素描/线稿就能生成模型，或者修改模型。（老实说我想要的还是“形变”） |
 
 
-## Face
+### Differentialble Rendering
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- | 
+| [Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786) | | | |
 
+
+### FACE
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
 | [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](https://arxiv.org/abs/1704.04086) |
