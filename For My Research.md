@@ -39,7 +39,8 @@
 
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
-
+| [Quasi 3D Rotation for Hand-Drawn Characters](https://history.siggraph.org/wp-content/uploads/2022/12/2014-Poster-82-Furusawa_Quasi-3D-Rotation-for-Hand-Drawn-Characters.pdf) | SIGGRAPH 2014 | | 面向中割，提出了线稿的角色面部的旋转方案（好像是纯数学） |
+| [Facial Landmark Detection for Manga Images](https://arxiv.org/abs/1811.03214) | 2018 | | 提出对漫画角色面部的关键点检测方案 |
 
 ## 3D （Deformation, Reconstruction, Differentiable Rendering...）
 
