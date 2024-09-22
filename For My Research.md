@@ -34,15 +34,29 @@
   - 使用现有的模型（不知道有没有）
   - 优点：在形变阶段能够不单单根据Landmark的分布来指导形变，还可以依赖图像。企业中利用该研究时也可以直接让画师绘制需要的视角的线稿。
 
+## TIPS
+
+[怎么画动漫角色](https://www.youtube.com/watch?v=B_iKnKoQ0qs&ab_channel=ArtSenpai)
+
+
 
 ## 2D （CV, Anime...）
+
+### Anime
 
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
 | [Quasi 3D Rotation for Hand-Drawn Characters](https://history.siggraph.org/wp-content/uploads/2022/12/2014-Poster-82-Furusawa_Quasi-3D-Rotation-for-Hand-Drawn-Characters.pdf) | SIGGRAPH 2014 | | 面向中割，提出了线稿的角色面部的旋转方案（好像是纯数学） |
 | [Facial Landmark Detection for Manga Images](https://arxiv.org/abs/1811.03214) | 2018 | | 提出对漫画角色面部的关键点检测方案 |
+
+### Face Rotation
+
+| Paper | Conference | Links | 注释 |
+| ---- | ---- | ---- | ---- | 
 | [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](https://arxiv.org/abs/1704.04086) | 2017 ICCV | | 人脸的旋转 |
 | [An Improved Face Synthesis Model for Two-Pathway Generative Adversarial Network](https://dl.acm.org/doi/abs/10.1145/3318299.3318346) | 2019 | | 人脸的旋转 |
+| [A GAN-Based Face Rotation for Artistic Portraits](https://www.mdpi.com/2227-7390/10/20/3860) | 2022 | | 对艺术画作的人脸旋转 |
+
 
 ## 3D （Deformation, Reconstruction, Differentiable Rendering...）
 
