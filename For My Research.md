@@ -41,6 +41,8 @@
 | ---- | ---- | ---- | ---- | 
 | [Quasi 3D Rotation for Hand-Drawn Characters](https://history.siggraph.org/wp-content/uploads/2022/12/2014-Poster-82-Furusawa_Quasi-3D-Rotation-for-Hand-Drawn-Characters.pdf) | SIGGRAPH 2014 | | 面向中割，提出了线稿的角色面部的旋转方案（好像是纯数学） |
 | [Facial Landmark Detection for Manga Images](https://arxiv.org/abs/1811.03214) | 2018 | | 提出对漫画角色面部的关键点检测方案 |
+| [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](https://arxiv.org/abs/1704.04086) | 2017 ICCV | | 人脸的旋转 |
+| [An Improved Face Synthesis Model for Two-Pathway Generative Adversarial Network](https://dl.acm.org/doi/abs/10.1145/3318299.3318346) | 2019 | | 人脸的旋转 |
 
 ## 3D （Deformation, Reconstruction, Differentiable Rendering...）
 
@@ -71,9 +73,6 @@
 | ---- | ---- | ---- | ---- |  
 | [Joint Face Alignment and 3D Face Reconstruction with Application to Face Recognition](https://cvlab.cse.msu.edu/pdfs/Liu_Zhao_Liu_Zeng_PAMI2018.pdf) | 2018 | | |
 | [From 2D to 3D real-time expression transfer for facial animation](https://link.springer.com/article/10.1007/s11042-018-6785-8) | 2019 | | 基于视频中检测道德landmark，进行的实时表情变化。（基于2D信息，而且是landmark，对某一面部模型的形变）|
-| [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](https://arxiv.org/abs/1704.04086) |
-| [An Improved Face Synthesis Model for Two-Pathway Generative Adversarial Network](https://dl.acm.org/doi/abs/10.1145/3318299.3318346) | 
-| [Disentangled Representation Learning GAN for Pose-Invariant Face Recognition](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tran_Disentangled_Representation_Learning_CVPR_2017_paper.pdf) |
 | [Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision](https://arxiv.org/abs/1905.06817) | 2019 CVPR | [Github](https://github.com/soubhiksanyal/RingNet) | 能够从一张图片捕获出FLAME model的面部参数 |
 | [SOFA: Style-based One-shot 3D Facial Animation Driven by 2D landmarks](https://dl.acm.org/doi/10.1145/3591106.3592291) | 2023 | | 基于2D Landmark的3D面部动画 |
 | [Alive Caricature from 2D to 3D](https://arxiv.org/abs/1803.06802) | 2018 CVPR | | 卡通面部重建 |
