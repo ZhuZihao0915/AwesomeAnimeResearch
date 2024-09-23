@@ -53,7 +53,7 @@
 
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
-| TP-GAN [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](https://arxiv.org/abs/1704.04086) | 2017 ICCV | [Github](https://github.com/HRLTY/TP-GAN) | 人脸的旋转 |
+| TP-GAN [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](https://arxiv.org/abs/1704.04086) | 2017 ICCV | [Github](https://github.com/HRLTY/TP-GAN) | 将正面化人脸分为两条路，一个是生成大致的正面脸，另一个是生成脸上的口鼻眼眉等部件。最后依据这两个生成最终正面图像。 |
 | DR-GAN [Disentangled Representation Learning GAN for Pose-Invariant Face Recognition](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tran_Disentangled_Representation_Learning_CVPR_2017_paper.pdf) | 2017 CVPR | [Github](https://github.com/tranluan/DR-GAN?tab=readme-ov-file) | 研究人脸姿态（角度）的一篇高引文章  |
 | [An Improved Face Synthesis Model for Two-Pathway Generative Adversarial Network](https://dl.acm.org/doi/abs/10.1145/3318299.3318346) | 2019 | | 人脸的旋转 |
 | [HoloGAN: Unsupervised learning of 3D representations from natural images](https://arxiv.org/abs/1904.01326) | 2019 ICCV | | 生成物体不同视角下的图像 |
