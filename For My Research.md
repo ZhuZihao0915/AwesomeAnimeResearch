@@ -59,7 +59,7 @@
 | [HoloGAN: Unsupervised learning of 3D representations from natural images](https://arxiv.org/abs/1904.01326) | 2019 ICCV | | 生成物体不同视角下的图像 |
 | [Pose-Guided Photorealistic Face Rotation]() | 2018 CVPR | | 依赖输入面部图像和landmark heatmap，指定目标图像的（即不同视角下的）landmark heatmap，去生成目标图像 |
 | [A GAN-Based Face Rotation for Artistic Portraits](https://www.mdpi.com/2227-7390/10/20/3860) | 2022 | | 对艺术画作的人脸旋转 |
-| [2D facial landmark localization method for multi-view face synthesis image using a two-pathway generative adversarial network approach](https://peerj.com/articles/cs-897/) | 2022 | | 利用2D facial landmark，对TP-GAN进行改进 |
+| [2D facial landmark localization method for multi-view face synthesis image using a two-pathway generative adversarial network approach](https://peerj.com/articles/cs-897/) | 2022 | [Github](https://github.com/MahmoodHB/LFMTP-GAN) | 利用2D facial landmark，对TP-GAN进行改进 |
 
 
 ## 3D （Deformation, Reconstruction, Differentiable Rendering...）
