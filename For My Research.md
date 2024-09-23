@@ -59,6 +59,7 @@
 | [HoloGAN: Unsupervised learning of 3D representations from natural images](https://arxiv.org/abs/1904.01326) | 2019 ICCV | | 生成物体不同视角下的图像 |
 | [Pose-Guided Photorealistic Face Rotation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Pose-Guided_Photorealistic_Face_CVPR_2018_paper.pdf) | 2018 CVPR | | 依赖输入面部图像和landmark heatmap，指定目标图像的（即不同视角下的）landmark heatmap，去生成目标图像（该研究没有局限于生成正面人脸，各个视角间的转换均有） |
 | [Multi-view frontal face image generation: A survey](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6147) | 2020 | | 针对从多视角生成正面人脸图像的Survey |
+| [Edge-Gan: Edge Conditioned Multi-View Face Image Generation](https://ieeexplore.ieee.org/document/9190723) | 2020 | | 利用轮廓线，生成多视角的人脸 |
 | [A GAN-Based Face Rotation for Artistic Portraits](https://www.mdpi.com/2227-7390/10/20/3860) | 2022 | | 对艺术画作的人脸旋转 |
 | [2D facial landmark localization method for multi-view face synthesis image using a two-pathway generative adversarial network approach](https://peerj.com/articles/cs-897/) | 2022 | [Github](https://github.com/MahmoodHB/LFMTP-GAN) | 利用2D facial landmark，对TP-GAN进行改进 |
 | [Multi-view face generation via unpaired images](https://dl.acm.org/doi/abs/10.1007/s00371-021-02129-y) | 2022 | | 无需配队数据的多视角面部图像生成（无需配队数据的话，或许可以不用动画资源了） |
