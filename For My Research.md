@@ -56,6 +56,7 @@
 | [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](https://arxiv.org/abs/1704.04086) | 2017 ICCV | | 人脸的旋转 |
 | [An Improved Face Synthesis Model for Two-Pathway Generative Adversarial Network](https://dl.acm.org/doi/abs/10.1145/3318299.3318346) | 2019 | | 人脸的旋转 |
 | [HoloGAN: Unsupervised learning of 3D representations from natural images](https://arxiv.org/abs/1904.01326) | 2019 ICCV | | 生成物体不同视角下的图像 |
+| [Pose-Guided Photorealistic Face Rotation]() | 2018 CVPR | | 依赖输入面部图像和landmark heatmap，指定目标图像的（即不同视角下的）landmark heatmap，去生成目标图像 |
 | [A GAN-Based Face Rotation for Artistic Portraits](https://www.mdpi.com/2227-7390/10/20/3860) | 2022 | | 对艺术画作的人脸旋转 |
 
 
