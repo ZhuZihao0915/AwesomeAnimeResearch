@@ -55,6 +55,7 @@
 | ---- | ---- | ---- | ---- | 
 | TP-GAN [Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis](https://arxiv.org/abs/1704.04086) | 2017 ICCV | [Github](https://github.com/HRLTY/TP-GAN) | 将正面化人脸分为两条路，一个是生成大致的正面脸，另一个是生成脸上的口鼻眼眉等部件。最后依据这两个生成最终正面图像。 |
 | DR-GAN [Disentangled Representation Learning GAN for Pose-Invariant Face Recognition](https://openaccess.thecvf.com/content_cvpr_2017/papers/Tran_Disentangled_Representation_Learning_CVPR_2017_paper.pdf) | 2017 CVPR | [Github](https://github.com/tranluan/DR-GAN?tab=readme-ov-file) | 研究人脸姿态（角度）的一篇高引文章  |
+| [CR-GAN: Learning Complete Representations for Multi-view Generation](https://arxiv.org/abs/1806.11191) | 2018 | [Github](https://github.com/bluer555/CR-GAN) | 对DR-GAN的改进 |
 | [An Improved Face Synthesis Model for Two-Pathway Generative Adversarial Network](https://dl.acm.org/doi/abs/10.1145/3318299.3318346) | 2019 | | 对TP-GAN的改进 |
 | [HoloGAN: Unsupervised learning of 3D representations from natural images](https://arxiv.org/abs/1904.01326) | 2019 ICCV | [Github](https://github.com/thunguyenphuoc/HoloGAN) | 生成物体不同视角下的图像 |
 | CAPG-GAN [Pose-Guided Photorealistic Face Rotation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Pose-Guided_Photorealistic_Face_CVPR_2018_paper.pdf) | 2018 CVPR | [Github(unofficial)](https://github.com/art591/CAPG-GAN) | 依赖输入面部图像和landmark heatmap，指定目标图像的（即不同视角下的）landmark heatmap，去生成目标图像（该研究没有局限于生成正面人脸，各个视角间的转换均有） |
