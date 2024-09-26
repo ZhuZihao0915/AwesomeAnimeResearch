@@ -59,6 +59,7 @@
 | [An Improved Face Synthesis Model for Two-Pathway Generative Adversarial Network](https://dl.acm.org/doi/abs/10.1145/3318299.3318346) | 2019 | | 对TP-GAN的改进 |
 | [HoloGAN: Unsupervised learning of 3D representations from natural images](https://arxiv.org/abs/1904.01326) | 2019 ICCV | [Github](https://github.com/thunguyenphuoc/HoloGAN) | 生成物体不同视角下的图像 |
 | CAPG-GAN [Pose-Guided Photorealistic Face Rotation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Pose-Guided_Photorealistic_Face_CVPR_2018_paper.pdf) | 2018 CVPR | [Github(unofficial)](https://github.com/art591/CAPG-GAN) | 依赖输入面部图像和landmark heatmap，指定目标图像的（即不同视角下的）landmark heatmap，去生成目标图像（该研究没有局限于生成正面人脸，各个视角间的转换均有） |
+| [High Fidelity Face Manipulation with Extreme Poses and Expressions](https://arxiv.org/abs/1903.12003) | 2019 | | 引入了boundary image，即线稿来生成旋转的人脸 |
 | [Multi-view frontal face image generation: A survey](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6147) | 2020 | | 针对从多视角生成正面人脸图像的Survey |
 | [Edge-Gan: Edge Conditioned Multi-View Face Image Generation](https://oar.a-star.edu.sg/storage/7/7j52gdvk17/edge-gan-edge-conditioned-multi-view-face-image-generation.pdf) | 2020 | | 输入两张图片，一张希望被旋转的正面脸，一张目标视角下另一个人的侧面脸。我们提取侧面脸的轮廓（edge），让其和正面脸一起作为输入。输出为edge视角的侧面脸。（有利用价值） |
 | [A GAN-Based Face Rotation for Artistic Portraits](https://www.mdpi.com/2227-7390/10/20/3860) | 2022 | | 对艺术画作的人脸旋转 |
