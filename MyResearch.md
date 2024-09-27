@@ -54,7 +54,10 @@
 
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
+| [Triple consistency loss for pairing distributions in GAN-based face synthesis](https://arxiv.org/abs/1811.03492) | 2018 | [Github](https://github.com/ESanchezLozano/GANnotation) | 基于landmark的人脸合成 |
 | [LandmarkGAN: Synthesizing Faces from Landmarks](https://arxiv.org/abs/2011.00269) | 2020 | [Github](https://github.com/stephenivy07/Landmarkgan) | 基于landmark的人脸合成 |
+
+
 ### Face Rotation
 
 | Paper | Conference | Links | 注释 |
