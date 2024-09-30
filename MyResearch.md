@@ -56,7 +56,7 @@
 | ---- | ---- | ---- | ---- | 
 | [Triple consistency loss for pairing distributions in GAN-based face synthesis](https://arxiv.org/abs/1811.03492) | 2018 | [Github](https://github.com/ESanchezLozano/GANnotation) | 提出了新的一致性损失 |
 | [LandmarkGAN: Synthesizing Faces from Landmarks](https://arxiv.org/abs/2011.00269) | 2020 | [Github](https://github.com/stephenivy07/Landmarkgan) | 基于landmark的人脸合成，能将一个人的landmark转为另一个人的。但研究只能作用于训练过的人（每个identity都有专门的解码器和生成网格） |
-| [Neural Head Reenactment with Latent Pose Descriptors](https://arxiv.org/abs/2004.12000) | 2020 | [Github](https://github.com/shrubb/latent-pose-reenactment) |  |
+| [Neural Head Reenactment with Latent Pose Descriptors](https://arxiv.org/abs/2004.12000) | 2020 CVPR | [Github](https://github.com/shrubb/latent-pose-reenactment) |  |
 
 
 ### Face Rotation
