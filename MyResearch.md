@@ -50,14 +50,14 @@
 | [Facial Landmark Detection for Manga Images](https://arxiv.org/abs/1811.03214) | 2018 | | 提出对漫画角色面部的关键点检测方案 |
 
 
-### Face Synthesis
+### Face Reenactment
 
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
 | [Triple consistency loss for pairing distributions in GAN-based face synthesis](https://arxiv.org/abs/1811.03492) | 2018 | [Github](https://github.com/ESanchezLozano/GANnotation) | 提出了新的一致性损失 |
 | [LandmarkGAN: Synthesizing Faces from Landmarks](https://arxiv.org/abs/2011.00269) | 2020 | [Github](https://github.com/stephenivy07/Landmarkgan) | 基于landmark的人脸合成，能将一个人的landmark转为另一个人的。但研究只能作用于训练过的人（每个identity都有专门的解码器和生成网格） |
 | [Neural Head Reenactment with Latent Pose Descriptors](https://arxiv.org/abs/2004.12000) | 2020 CVPR | [Github](https://github.com/shrubb/latent-pose-reenactment) |  |
-
+| [FReeNet: Multi-Identity Face Reenactment](https://arxiv.org/abs/1905.11805) | 2020 CVPR | [Github](https://github.com/zhangzjn/FReeNet) | 同样有一个Landmark Converter，但貌似只变换表情，不变化姿态 |
 
 ### Face Rotation
 
