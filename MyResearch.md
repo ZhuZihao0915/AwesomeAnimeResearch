@@ -93,7 +93,7 @@
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
 | [Doodle Your 3D: From Abstract Freehand Sketches to Precise 3D Shapes](https://arxiv.org/abs/2312.04043) | 2024 CVPR | | 使用素描/线稿就能生成模型，或者修改模型。（很好的工作，但本研究需要的是“形变”） |
-| [Sketch2Mesh: Reconstructing and Editing 3D Shapes from Sketches](https://openaccess.thecvf.com/content/ICCV2021/papers/Guillard_Sketch2Mesh_Reconstructing_and_Editing_3D_Shapes_From_Sketches_ICCV_2021_paper.pdf) | 2021 CVPR | [Github](https://github.com/cvlab-epfl/sketch2mesh) | **** 针对一个模型，通过几笔sketch就能修改这个模型 |
+| **** [Sketch2Mesh: Reconstructing and Editing 3D Shapes from Sketches](https://openaccess.thecvf.com/content/ICCV2021/papers/Guillard_Sketch2Mesh_Reconstructing_and_Editing_3D_Shapes_From_Sketches_ICCV_2021_paper.pdf) | 2021 CVPR | [Github](https://github.com/cvlab-epfl/sketch2mesh) | 针对一个模型，通过几笔sketch就能修改这个模型 |
 | [PAniC-3D: Stylized Single-View 3D Reconstruction From Portraits of Anime Characters](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_PAniC-3D_Stylized_Single-View_3D_Reconstruction_From_Portraits_of_Anime_Characters_CVPR_2023_paper.pdf) | 2023 CVPR | [Github](https://github.com/ShuhongChen/panic3d-anime-reconstruction) | 很值得看的一篇文章。利用动漫角色肖像重建角色模型。单看它代码开源，数据库开源就很值得参考。 |
 
 
