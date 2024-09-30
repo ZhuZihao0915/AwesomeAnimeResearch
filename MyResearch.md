@@ -89,13 +89,15 @@
 | [DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates](https://arxiv.org/abs/2102.09105) | 2021 CVPR | [Github](https://github.com/Colin97/DeepMetaHandles) | 使用神经网络学习到元句柄（网格控制点的组合），利用其进行形变，使模型接近目标网格。其中还应用了可微渲染器和2D判别器来作为Loss。（虽然是基于目标网格进行的形变，不是基于二维的信息，但利用了控制点，整个形变过程值得参考）|
 
 
-### Reconstruction
+### Sketch-based Reconstruction
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
 | [Doodle Your 3D: From Abstract Freehand Sketches to Precise 3D Shapes](https://arxiv.org/abs/2312.04043) | 2024 CVPR | | 使用素描/线稿就能生成模型，或者修改模型。（很好的工作，但本研究需要的是“形变”） |
 | **** [Sketch2Mesh: Reconstructing and Editing 3D Shapes from Sketches](https://openaccess.thecvf.com/content/ICCV2021/papers/Guillard_Sketch2Mesh_Reconstructing_and_Editing_3D_Shapes_From_Sketches_ICCV_2021_paper.pdf) | 2021 CVPR | [Github](https://github.com/cvlab-epfl/sketch2mesh) | 针对一个模型，通过几笔sketch就能修改这个模型 |
 | [PAniC-3D: Stylized Single-View 3D Reconstruction From Portraits of Anime Characters](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_PAniC-3D_Stylized_Single-View_3D_Reconstruction_From_Portraits_of_Anime_Characters_CVPR_2023_paper.pdf) | 2023 CVPR | [Github](https://github.com/ShuhongChen/panic3d-anime-reconstruction) | 很值得看的一篇文章。利用动漫角色肖像重建角色模型。单看它代码开源，数据库开源就很值得参考。 |
 | [S2TD-Face: Reconstruct a Detailed 3D Face with Controllable Texture from a Single Sketch](https://arxiv.org/abs/2408.01218) | 2024 | [Github](https://github.com/wang-zidu/S2TD-Face) | |
+| [SENS: Part-Aware Sketch-based Implicit Neural Shape Modeling](https://arxiv.org/abs/2306.06088) | 2024 EG | [Github](https://github.com/AlexandreBinninger/SENS) | |
+| [SketchMetaFace: A Learning-based Sketching Interface for High-fidelity 3D Character Face Modeling](https://arxiv.org/abs/2307.00804) | 2023 TVCG | [Github](https://github.com/zhongjinluo/SketchMetaFace) | |
 
 ### Differentialble Rendering
 | Paper | Conference | Links | 注释 |
