@@ -122,7 +122,7 @@
 | [PAniC-3D: Stylized Single-View 3D Reconstruction From Portraits of Anime Characters](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_PAniC-3D_Stylized_Single-View_3D_Reconstruction_From_Portraits_of_Anime_Characters_CVPR_2023_paper.pdf) | 2023 CVPR | [Github](https://github.com/ShuhongChen/panic3d-anime-reconstruction) | 虽然和研究关系不大，但很有意思的一篇文章。利用动漫角色肖像重建出角色模型。其中它代码开源，数据库开源，值得参考。 |
 | [S2TD-Face: Reconstruct a Detailed 3D Face with Controllable Texture from a Single Sketch](https://arxiv.org/abs/2408.01218) | 2024 | [Github](https://github.com/wang-zidu/S2TD-Face) | |
 | [SENS: Part-Aware Sketch-based Implicit Neural Shape Modeling](https://arxiv.org/abs/2306.06088) | 2024 EG | [Github](https://github.com/AlexandreBinninger/SENS) | |
-| [SketchMetaFace: A Learning-based Sketching Interface for High-fidelity 3D Character Face Modeling](https://arxiv.org/abs/2307.00804) | 2023 TVCG | [Github](https://github.com/zhongjinluo/SketchMetaFace) | |
+| [SketchMetaFace: A Learning-based Sketching Interface for High-fidelity 3D Character Face Modeling](https://arxiv.org/abs/2307.00804) | 2023 TVCG | [Github](https://github.com/zhongjinluo/SketchMetaFace) | DeepSketch2Face只能根据参数模型生成人脸面部，有局限性。此研究能根据sketch生成更加多样的面部 |
 
 <br>
 
