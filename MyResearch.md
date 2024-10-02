@@ -38,10 +38,14 @@
 
 [怎么画动漫角色](https://www.youtube.com/watch?v=B_iKnKoQ0qs&ab_channel=ArtSenpai)
 
-
+<br>
+<br>
 ---
+<br>
 
 ## 2D （CV, Anime...）
+
+<br>
 
 ### Anime
 
@@ -50,6 +54,7 @@
 | [Quasi 3D Rotation for Hand-Drawn Characters](https://history.siggraph.org/wp-content/uploads/2022/12/2014-Poster-82-Furusawa_Quasi-3D-Rotation-for-Hand-Drawn-Characters.pdf) | SIGGRAPH 2014 | | 面向中割，提出了线稿的角色面部的旋转方案（好像是纯数学） |
 | [Facial Landmark Detection for Manga Images](https://arxiv.org/abs/1811.03214) | 2018 | | 提出对漫画角色面部的关键点检测方案 |
 
+<br>
 
 ### Face Reenactment
 
@@ -60,6 +65,8 @@
 | [Neural Head Reenactment with Latent Pose Descriptors](https://arxiv.org/abs/2004.12000) | 2020 CVPR | [Github](https://github.com/shrubb/latent-pose-reenactment) |  |
 | [FReeNet: Multi-Identity Face Reenactment](https://arxiv.org/abs/1905.11805) | 2020 CVPR | [Github](https://github.com/zhangzjn/FReeNet) | 同样有一个Landmark Converter，但貌似只变换表情，不变化姿态，且需要成对数据 |
 | [A survey on deep learning based reenactment methods for deepfake applications](https://www.researchgate.net/publication/383229641_A_survey_on_deep_learning_based_reenactment_methods_for_deepfake_applications) | 2024 | |  |
+
+<br>
 
 ### Face Rotation
 
@@ -86,12 +93,10 @@
 ---
 
 <br>
-<br>
-  
-
-
 
 ## 3D （Deformation, Reconstruction, Differentiable Rendering...）
+
+<br>
 
 ### Deformation
 | Paper | Conference | Links | 注释 |
@@ -102,6 +107,7 @@
 | [Neural Cages for Detail-Preserving 3D Deformations](https://arxiv.org/abs/1912.06395) | 2020 CVPR | | 基于Cage的形变方法，能够让源模型形变为类似目标模型结构的同时，保持原有的细节。输入源模型和目标模型，使用神经网络得到两个模型的Cage，让源模型的Cage接近目标模型的Cage从而达到形变。（基于3D模型进行形变，因此对本研究帮助不大） |
 | [DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates](https://arxiv.org/abs/2102.09105) | 2021 CVPR | [Github](https://github.com/Colin97/DeepMetaHandles) | 使用神经网络学习到元句柄（网格控制点的组合），利用其进行形变，使模型接近目标网格。其中还应用了可微渲染器和2D判别器来作为Loss。（虽然是基于目标网格进行的形变，不是基于二维的信息，但利用了控制点，整个形变过程值得参考）|
 
+<br>
 
 ### Sketch-based Reconstruction
 | Paper | Conference | Links | 注释 |
@@ -114,11 +120,14 @@
 | [SENS: Part-Aware Sketch-based Implicit Neural Shape Modeling](https://arxiv.org/abs/2306.06088) | 2024 EG | [Github](https://github.com/AlexandreBinninger/SENS) | |
 | [SketchMetaFace: A Learning-based Sketching Interface for High-fidelity 3D Character Face Modeling](https://arxiv.org/abs/2307.00804) | 2023 TVCG | [Github](https://github.com/zhongjinluo/SketchMetaFace) | |
 
+<br>
+
 ### Differentialble Rendering
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
 | [Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786) | 2019 | |  |
 
+<br>
 
 ### FACE
 | Paper | Conference | Links | 注释 |
