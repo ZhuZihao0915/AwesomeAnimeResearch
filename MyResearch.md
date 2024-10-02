@@ -39,6 +39,7 @@
 [怎么画动漫角色](https://www.youtube.com/watch?v=B_iKnKoQ0qs&ab_channel=ArtSenpai)
 
 
+---
 
 ## 2D （CV, Anime...）
 
@@ -76,6 +77,18 @@
 | [A GAN-Based Face Rotation for Artistic Portraits](https://www.mdpi.com/2227-7390/10/20/3860) | 2022 | | 对艺术画作的人脸旋转 |
 | [2D facial landmark localization method for multi-view face synthesis image using a two-pathway generative adversarial network approach](https://peerj.com/articles/cs-897/) | 2022 | [Github](https://github.com/MahmoodHB/LFMTP-GAN) | 利用2D facial landmark，对TP-GAN进行改进 |
 | [Multi-view face generation via unpaired images](https://dl.acm.org/doi/abs/10.1007/s00371-021-02129-y) | 2022 | | 无需配队数据的多视角面部图像生成（无需配队数据的话，或许可以不用动画资源了） |
+
+
+
+
+
+
+---
+
+
+
+
+
 
 ## 3D （Deformation, Reconstruction, Differentiable Rendering...）
 
