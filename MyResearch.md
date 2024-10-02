@@ -92,6 +92,7 @@
 ### Sketch-based Reconstruction
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
+| [DeepSketch2Face: a deep learning based sketching system for 3D face and caricature modeling](https://dl.acm.org/doi/10.1145/3072959.3073629) | 2017 | [Github（无源码）](https://github.com/changgyhub/deepsketch2face) | 使用素描生成人脸。但也基于一个mean face， |
 | [Doodle Your 3D: From Abstract Freehand Sketches to Precise 3D Shapes](https://arxiv.org/abs/2312.04043) | 2024 CVPR | | 使用素描/线稿就能生成模型，或者修改模型。（很好的工作，但本研究需要的是“形变”） |
 | [Sketch2Mesh: Reconstructing and Editing 3D Shapes from Sketches](https://openaccess.thecvf.com/content/ICCV2021/papers/Guillard_Sketch2Mesh_Reconstructing_and_Editing_3D_Shapes_From_Sketches_ICCV_2021_paper.pdf) | 2021 CVPR | [Github](https://github.com/cvlab-epfl/sketch2mesh) | CVLab, EPFL  针对一个模型，通过几笔sketch就能修改这个模型。很好的工作，但是修改了mesh |
 | [PAniC-3D: Stylized Single-View 3D Reconstruction From Portraits of Anime Characters](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_PAniC-3D_Stylized_Single-View_3D_Reconstruction_From_Portraits_of_Anime_Characters_CVPR_2023_paper.pdf) | 2023 CVPR | [Github](https://github.com/ShuhongChen/panic3d-anime-reconstruction) | 虽然和研究关系不大，但很有意思的一篇文章。利用动漫角色肖像重建出角色模型。其中它代码开源，数据库开源，值得参考。 |
