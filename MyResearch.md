@@ -113,7 +113,7 @@
 | [Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision](https://arxiv.org/abs/1905.06817) | 2019 CVPR | [Github](https://github.com/soubhiksanyal/RingNet) | 能够从一张图片捕获出FLAME model的面部参数 |
 | [SOFA: Style-based One-shot 3D Facial Animation Driven by 2D landmarks](https://dl.acm.org/doi/10.1145/3591106.3592291) | 2023 | | 基于2D Landmark的3D面部动画 |
 | [Alive Caricature from 2D to 3D](https://arxiv.org/abs/1803.06802) | 2018 CVPR | | 卡通面部重建 |
-| [Landmark Detection and 3D Face Reconstruction for Caricature using a Nonlinear Parametric Model](https://arxiv.org/abs/2004.09190) | 2021 | [Github](https://github.com/Juyong/CaricatureFace) | 基于关键点的卡通面部重建。（虽然是重建，但文章涉及到了卡通面部的关键点检测，包括脸颊轮廓的关键点。甚至提出了面部模型上的Optional Landmark Set，和本研究的思路高度一致） |
+| [Landmark Detection and 3D Face Reconstruction for Caricature using a Nonlinear Parametric Model](https://arxiv.org/abs/2004.09190) | 2021 | [Github](https://github.com/Juyong/CaricatureFace) | 基于关键点的卡通面部重建。虽然是重建，但文章涉及到了卡通面部的关键点检测，包括脸颊轮廓的关键点。甚至提出了面部模型上的Optional Landmark Set，和本研究的思路高度一致。但是神经网络依赖于一个固定的mean face，且训练时依赖几何损失，需要真实的模型数据，泛用性较低 |
 | [Generating Animatable 3D Cartoon Faces from Single Portraits](https://arxiv.org/abs/2307.01468) | 2023 | | 先基于图像粗略重建面部，再基于landmark监督，使用Laplacian deformation修正模型。（后半部分值得参考） |
 | [Synthesis, Style Editing, and Animation of 3D Cartoon Face](https://www.sciopen.com/article/10.26599/TST.2023.9010028) | 2024 | | 卡通面部重建 |
 
