@@ -107,9 +107,12 @@
 | ---- | ---- | ---- | ---- | 
 | [Practice and Theory of Blendshape Facial Models](https://graphics.cs.uh.edu/wp-content/papers/2014/2014-EG-blendshape_STAR.pdf) | 2014 | | 针对面部Blendshape的讲解（最后获得形变后的模型，需要生成平滑的过渡时，值得参考） |
 | [DeformNet: Free-Form Deformation Network for 3D Shape Reconstruction from a Single Image](https://arxiv.org/abs/1708.04672) | 2018 | [Youtube](https://www.youtube.com/watch?v=cKzXVL6W--8&ab_channel=ComputerVisionFoundationVideos) | 基于图像的形变。（基于二维的信息，和本研究较符合）|
-| [3DN: 3D Deformation Network](https://arxiv.org/abs/1903.03322) | 2019 CVPR | | 能够基于目标图像或目标点云来形变模型 |
+| [3DN: 3D Deformation Network](https://arxiv.org/abs/1903.03322) | 2019 CVPR | | 能够基于目标图像或目标点云来形变模型，比较符合 |
 | [Neural Cages for Detail-Preserving 3D Deformations](https://arxiv.org/abs/1912.06395) | 2020 CVPR | | 基于Cage的形变方法，能够让源模型形变为类似目标模型结构的同时，保持原有的细节。输入源模型和目标模型，使用神经网络得到两个模型的Cage，让源模型的Cage接近目标模型的Cage从而达到形变。（基于3D模型进行形变，因此对本研究帮助不大） |
 | [DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates](https://arxiv.org/abs/2102.09105) | 2021 CVPR | [Github](https://github.com/Colin97/DeepMetaHandles) | Deformation的研究。使用神经网络学习到元句柄（网格控制点的组合），利用其进行形变，使模型接近目标网格。其中还应用了可微渲染器和2D判别器来作为Loss。（是基于目标网格进行的形变，虽然没有sketch相关，但利用了控制点，整个形变过程值得参考）|
+| [Unsupervised Shape and Pose Disentanglement for 3D Meshes](https://arxiv.org/abs/2007.11341) | 2020 | [Github](https://github.com/kzhou23/shape_pose_disent) | 实现了3D网格形状和姿态的解耦。能够实现：姿态传递（可以将一个网格的姿态传递给另一个网格），形状和姿态插值，姿态与形状的独立控制等功能。但是解耦的对象必须具有相同的mesh结构（作为VAE的输入） |
+
+
 
 <br>
 
