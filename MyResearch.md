@@ -106,7 +106,8 @@
 | Paper | Conference | Links | 注释 |
 | ---- | ---- | ---- | ---- | 
 | [Practice and Theory of Blendshape Facial Models](https://graphics.cs.uh.edu/wp-content/papers/2014/2014-EG-blendshape_STAR.pdf) | 2014 | | 针对面部Blendshape的讲解（最后获得形变后的模型，需要生成平滑的过渡时，值得参考） |
-| [DeformNet: Free-Form Deformation Network for 3D Shape Reconstruction from a Single Image](https://arxiv.org/abs/1708.04672) | 2018 | [Youtube](https://www.youtube.com/watch?v=cKzXVL6W--8&ab_channel=ComputerVisionFoundationVideos) | 基于图像的形变。（基于二维的信息，和本研究较符合）|
+| [DeformNet: Free-Form Deformation Network for 3D Shape Reconstruction from a Single Image](https://arxiv.org/abs/1708.04672) | 2018 | [Youtube](https://www.youtube.com/watch?v=cKzXVL6W--8&ab_channel=ComputerVisionFoundationVideos) | 基于图像的FFD形变，但本研究并不需要FFD。|
+| [3D-CODED : 3D Correspondences by Deep Deformation](https://arxiv.org/abs/1806.05228) | 2018 ECCV | [Github](https://github.com/ThibaultGROUEIX/3D-CODED) | 使用编码后的中间表示，对人体进行形变 |
 | [3DN: 3D Deformation Network](https://arxiv.org/abs/1903.03322) | 2019 CVPR | [Github](https://github.com/laughtervv/3DN) | 专注于形变，能够基于目标图像或目标点云来形变模型，比较符合 |
 | [3Deformer: A Common Framework for Image-Guided Mesh Deformation](https://arxiv.org/abs/2307.09892) | 2023 | | 专注于形变，能够依赖目标的semantic image去完成形变，非常符合本研究 |
 | [Neural Cages for Detail-Preserving 3D Deformations](https://arxiv.org/abs/1912.06395) | 2020 CVPR | | 基于Cage的形变方法，能够让源模型形变为类似目标模型结构的同时，保持原有的细节。输入源模型和目标模型，使用神经网络得到两个模型的Cage，让源模型的Cage接近目标模型的Cage从而达到形变。（基于3D模型进行形变，因此对本研究帮助不大） |
