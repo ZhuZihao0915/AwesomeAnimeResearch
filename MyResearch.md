@@ -57,6 +57,10 @@
 | ---- | ---- | ---- | ---- | 
 | [Quasi 3D Rotation for Hand-Drawn Characters](https://history.siggraph.org/wp-content/uploads/2022/12/2014-Poster-82-Furusawa_Quasi-3D-Rotation-for-Hand-Drawn-Characters.pdf) | SIGGRAPH 2014 | | 面向中割，提出了线稿的角色面部的旋转方案（好像是纯数学） |
 | [Facial Landmark Detection for Manga Images](https://arxiv.org/abs/1811.03214) | 2018 | | 提出对漫画角色面部的关键点检测方案 |
+| [Face Image Generation of Anime Characters Using an Advanced First Order Motion Model with Facial Landmarks](https://www.jstage.jst.go.jp/article/transinf/E106.D/1/E106.D_2022MUP0004/_pdf) | 2021 | | 用landmark生成动漫图像 |
+| [Automatic Landmark-Guided Face Image Generation for Anime Characters Using C
+2
+2GAN](https://www.researchgate.net/publication/349579537_Automatic_Landmark-Guided_Face_Image_Generation_for_Anime_Characters_Using_C2GAN) | 2021 | | |
 
 <br>
 
